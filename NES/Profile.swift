@@ -44,7 +44,7 @@ class Profile: UIViewController {
 
     
         
-        
+    /*
     let alert = UIAlertController(title: "ほぞん",
         message: "プロフィールを保存しました",
         preferredStyle: UIAlertControllerStyle.Alert)
@@ -66,11 +66,11 @@ class Profile: UIViewController {
      func textFieldShouldReturn(textField: UITextField) -> Bool {
     textField.resignFirstResponder()
     return true
-}
+}*/
 
 
 
-
+    }
 
 
 
@@ -81,7 +81,7 @@ override func didReceiveMemoryWarning() {
     
 }
 
-
+}
 
 
 
