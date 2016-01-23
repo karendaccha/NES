@@ -21,6 +21,7 @@ class WelcomeViewController: UIViewController , FBSDKLoginButtonDelegate{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    //facebookからログインからユーザー登録
     func loginButton(loginButton: FBSDKLoginButton!,didCompleteWithResult
         result: FBSDKLoginManagerLoginResult!, error: NSError!) {
             print("User Logged In")

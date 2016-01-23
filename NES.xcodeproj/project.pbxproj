@@ -16,6 +16,9 @@
 		9C45B3091C47E0F900CD3913 /* NESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C45B3081C47E0F900CD3913 /* NESUITests.swift */; };
 		9C45B3191C48F57400CD3913 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45B3181C48F57400CD3913 /* FBSDKCoreKit.framework */; };
 		9C45B31B1C48F58B00CD3913 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45B31A1C48F58B00CD3913 /* FBSDKLoginKit.framework */; };
+		9CF28ECE1C4A1A2E0090816A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECD1C4A1A2E0090816A /* Profile.swift */; };
+		9CF28ED01C4A1B7B0090816A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECF1C4A1B7B0090816A /* File.swift */; };
+		9CF28ED21C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		9C45B30A1C47E0F900CD3913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C45B3181C48F57400CD3913 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		9C45B31A1C48F58B00CD3913 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9CF28ECD1C4A1A2E0090816A /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9CF28ECF1C4A1B7B0090816A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2015-03-07 9.04.50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +113,13 @@
 			children = (
 				9C45B2E81C47E0F900CD3913 /* AppDelegate.swift */,
 				9C45B2EA1C47E0F900CD3913 /* WelcomeViewController.swift */,
+				9CF28ECD1C4A1A2E0090816A /* Profile.swift */,
 				9C45B2EC1C47E0F900CD3913 /* Main.storyboard */,
+				9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */,
 				9C45B2EF1C47E0F900CD3913 /* Assets.xcassets */,
 				9C45B2F11C47E0F900CD3913 /* LaunchScreen.storyboard */,
 				9C45B2F41C47E0F900CD3913 /* Info.plist */,
+				9CF28ECF1C4A1B7B0090816A /* File.swift */,
 			);
 			path = NES;
 			sourceTree = "<group>";
@@ -239,6 +248,7 @@
 			files = (
 				9C45B2F31C47E0F900CD3913 /* LaunchScreen.storyboard in Resources */,
 				9C45B2F01C47E0F900CD3913 /* Assets.xcassets in Resources */,
+				9CF28ED21C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png in Resources */,
 				9C45B2EE1C47E0F900CD3913 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C45B2EB1C47E0F900CD3913 /* WelcomeViewController.swift in Sources */,
+				9CF28ED01C4A1B7B0090816A /* File.swift in Sources */,
+				9CF28ECE1C4A1A2E0090816A /* Profile.swift in Sources */,
 				9C45B2E91C47E0F900CD3913 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +512,7 @@
 				9C45B30F1C47E0F900CD3913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C45B3101C47E0F900CD3913 /* Build configuration list for PBXNativeTarget "NESTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				9C45B3121C47E0F900CD3913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C45B3131C47E0F900CD3913 /* Build configuration list for PBXNativeTarget "NESUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +530,7 @@
 				9C45B3151C47E0F900CD3913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
