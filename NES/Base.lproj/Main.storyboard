@@ -17,20 +17,38 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jbm-eO-gku">
-                                <rect key="frame" x="98" y="343" width="124" height="30"/>
+                                <rect key="frame" x="98" y="391" width="124" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="facebookログイン"/>
                                 <connections>
-                                    <segue destination="OBd-82-bfn" kind="modal" id="ZjE-e4-cqc"/>
+                                    <segue destination="9yS-ih-KPH" kind="modal" id="bnW-yi-RzJ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="K9B-mp-SaO">
+                                <rect key="frame" x="0.0" y="154" width="320" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ntm-TK-x7Y">
+                                <rect key="frame" x="59" y="231" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LiaTos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="apL-Si-81L">
+                                <rect key="frame" x="91" y="214" width="151" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="47"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="352"/>
+            <point key="canvasLocation" x="204" y="373"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lDe-X3-rw1">
@@ -39,13 +57,21 @@
                     <view key="view" contentMode="scaleToFill" id="inO-Mw-mQq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="イベントを検索" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="9tt-z2-zdl">
+                                <rect key="frame" x="20" y="20" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="sub-04-HLb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VH-II-MvA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="1115"/>
+            <point key="canvasLocation" x="672" y="1085"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DPU-gs-OIe">
@@ -54,13 +80,25 @@
                     <view key="view" contentMode="scaleToFill" id="xdH-cl-pGm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="bs1-u1-ZGA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="人と人" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="K4m-jD-Lbf">
+                                <rect key="frame" x="20" y="20" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="ovb-JX-RhI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hmp-mO-y4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1349" y="755"/>
+            <point key="canvasLocation" x="1101" y="755"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="SgS-pK-MuM">
@@ -128,22 +166,34 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Esl-Fg-MoG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1755" y="977"/>
+            <point key="canvasLocation" x="1517" y="1009"/>
         </scene>
-        <!--home-->
+        <!--View Controller-->
         <scene sceneID="hwI-Dr-cLv">
             <objects>
                 <viewController id="5yC-le-65G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PDM-Za-haE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="u5S-uG-hmw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="イベントを紹介" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Xkd-nw-ePI">
+                                <rect key="frame" x="20" y="20" width="119" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="home" id="Iqr-jr-6vi"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="Iqr-jr-6vi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o4a-QP-Rdr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1349" y="136"/>
+            <point key="canvasLocation" x="1101" y="120"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="alP-Kw-ueW">
@@ -153,10 +203,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="スクリーンショット 2015-03-07 9.04.50.png" id="KTv-OC-cvf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="V5g-QX-R03">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            </scrollView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="個人情報設定画面" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="hL4-DW-Ugb">
                                 <rect key="frame" x="20" y="20" width="133" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -170,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akN-hY-Rgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1757" y="352"/>
+            <point key="canvasLocation" x="1517" y="340"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uVd-6M-Dz2">
@@ -184,48 +234,13 @@
                     <connections>
                         <segue destination="5yC-le-65G" kind="relationship" relationship="viewControllers" id="OvV-xD-6tj"/>
                         <segue destination="Of5-43-BPb" kind="relationship" relationship="viewControllers" id="6xP-gX-J9I"/>
-                        <segue destination="tYw-0w-IRy" kind="relationship" relationship="viewControllers" id="fHD-kF-xdm"/>
                         <segue destination="t7Y-ti-Fsa" kind="relationship" relationship="viewControllers" id="uxk-YX-VVP"/>
+                        <segue destination="tYw-0w-IRy" kind="relationship" relationship="viewControllers" id="fHD-kF-xdm"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GU9-HO-2Vn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="352"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Lrg-kB-wXL">
-            <objects>
-                <viewController id="OBd-82-bfn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ezu-q6-Gh6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="興味のあるカテゴリー選択" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="LCG-JS-YZ4">
-                                <rect key="frame" x="57" y="52" width="189" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MfP-Rv-jtP">
-                                <rect key="frame" x="165" y="447" width="135" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="イベント表示画面に"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3gU-fH-84x">
-                                <rect key="frame" x="50" y="142" width="105" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="カテゴリー選択"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wRx-AZ-boY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="524" y="352"/>
+            <point key="canvasLocation" x="672" y="347"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="スクリーンショット 2015-03-07 9.04.50.png" width="346" height="582"/>
-    </resources>
 </document>

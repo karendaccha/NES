@@ -19,6 +19,7 @@
 		9CF28ECE1C4A1A2E0090816A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECD1C4A1A2E0090816A /* Profile.swift */; };
 		9CF28ED01C4A1B7B0090816A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECF1C4A1B7B0090816A /* File.swift */; };
 		9CF28ED21C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */; };
+		9CF28ED41C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF28ED31C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9CF28ECD1C4A1A2E0090816A /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		9CF28ECF1C4A1B7B0090816A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2015-03-07 9.04.50.png"; sourceTree = "<group>"; };
+		9CF28ED31C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-01-23 14.53.44.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				9C45B2EA1C47E0F900CD3913 /* WelcomeViewController.swift */,
 				9CF28ECD1C4A1A2E0090816A /* Profile.swift */,
 				9C45B2EC1C47E0F900CD3913 /* Main.storyboard */,
+				9CF28ED31C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png */,
 				9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */,
 				9C45B2EF1C47E0F900CD3913 /* Assets.xcassets */,
 				9C45B2F11C47E0F900CD3913 /* LaunchScreen.storyboard */,
@@ -250,6 +253,7 @@
 				9C45B2F01C47E0F900CD3913 /* Assets.xcassets in Resources */,
 				9CF28ED21C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png in Resources */,
 				9C45B2EE1C47E0F900CD3913 /* Main.storyboard in Resources */,
+				9CF28ED41C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

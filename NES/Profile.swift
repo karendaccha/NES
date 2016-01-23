@@ -44,31 +44,7 @@ class Profile: UIViewController {
 
     
         
-    /*
-    let alert = UIAlertController(title: "ほぞん",
-        message: "プロフィールを保存しました",
-        preferredStyle: UIAlertControllerStyle.Alert)
-    
-         alert.addAction(
-         UIAlertAction(
-          title: "登録",
-          style: UIAlertActionStyle.Default,
-          handler: {action in
-    
-    self.navigationController?.popViewControllerAnimated(true)
-    
-    NSLog("登録が押されました")
-    }))
-    
-    
-    presentViewController(alert, animated: true, completion: nil)
-}
-     func textFieldShouldReturn(textField: UITextField) -> Bool {
-    textField.resignFirstResponder()
-    return true
-}*/
-
-
+  
 
     }
 
