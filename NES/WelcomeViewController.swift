@@ -16,6 +16,7 @@ class WelcomeViewController: UIViewController , FBSDKLoginButtonDelegate{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    //faebookのログインページを作成！
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,7 +58,11 @@ class WelcomeViewController: UIViewController , FBSDKLoginButtonDelegate{
             loginView.delegate = self
         }
     }
-
-
+    @IBAction func a(){
+        
+    }
+    
+    
+    
 }
 

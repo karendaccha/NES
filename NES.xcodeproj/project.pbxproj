@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0581321C64B02C00617693 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0581311C64B02C00617693 /* People.swift */; };
+		9C0581341C64B41500617693 /* スクリーンショット 2016-02-05 19.41.52.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0581331C64B41500617693 /* スクリーンショット 2016-02-05 19.41.52.png */; };
+		9C0581361C64B5CD00617693 /* スクリーンショット 2016-02-05 19.47.59.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0581351C64B5CD00617693 /* スクリーンショット 2016-02-05 19.47.59.png */; };
+		9C0581381C64B6D200617693 /* 20080924113919.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C0581371C64B6D200617693 /* 20080924113919.jpg */; };
 		9C45B2E91C47E0F900CD3913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C45B2E81C47E0F900CD3913 /* AppDelegate.swift */; };
 		9C45B2EB1C47E0F900CD3913 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C45B2EA1C47E0F900CD3913 /* WelcomeViewController.swift */; };
 		9C45B2EE1C47E0F900CD3913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C45B2EC1C47E0F900CD3913 /* Main.storyboard */; };
@@ -16,10 +20,10 @@
 		9C45B3091C47E0F900CD3913 /* NESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C45B3081C47E0F900CD3913 /* NESUITests.swift */; };
 		9C45B3191C48F57400CD3913 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45B3181C48F57400CD3913 /* FBSDKCoreKit.framework */; };
 		9C45B31B1C48F58B00CD3913 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45B31A1C48F58B00CD3913 /* FBSDKLoginKit.framework */; };
-		9CF28ECE1C4A1A2E0090816A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECD1C4A1A2E0090816A /* Profile.swift */; };
-		9CF28ED01C4A1B7B0090816A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECF1C4A1B7B0090816A /* File.swift */; };
+		9CF28ED01C4A1B7B0090816A /* Ivent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF28ECF1C4A1B7B0090816A /* Ivent.swift */; };
 		9CF28ED21C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */; };
 		9CF28ED41C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF28ED31C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png */; };
+		9CF28ED81C538F440090816A /* スクリーンショット 2015-06-07 14.39.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CF28ED71C538F440090816A /* スクリーンショット 2015-06-07 14.39.13.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C0581311C64B02C00617693 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		9C0581331C64B41500617693 /* スクリーンショット 2016-02-05 19.41.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-02-05 19.41.52.png"; sourceTree = "<group>"; };
+		9C0581351C64B5CD00617693 /* スクリーンショット 2016-02-05 19.47.59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-02-05 19.47.59.png"; sourceTree = "<group>"; };
+		9C0581371C64B6D200617693 /* 20080924113919.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20080924113919.jpg; sourceTree = "<group>"; };
 		9C45B2E51C47E0F900CD3913 /* NES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C45B2E81C47E0F900CD3913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C45B2EA1C47E0F900CD3913 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +63,10 @@
 		9C45B30A1C47E0F900CD3913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C45B3181C48F57400CD3913 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		9C45B31A1C48F58B00CD3913 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		9CF28ECD1C4A1A2E0090816A /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		9CF28ECF1C4A1B7B0090816A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		9CF28ECF1C4A1B7B0090816A /* Ivent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ivent.swift; sourceTree = "<group>"; };
 		9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2015-03-07 9.04.50.png"; sourceTree = "<group>"; };
 		9CF28ED31C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2016-01-23 14.53.44.png"; sourceTree = "<group>"; };
+		9CF28ED71C538F440090816A /* スクリーンショット 2015-06-07 14.39.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2015-06-07 14.39.13.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,14 +123,18 @@
 			children = (
 				9C45B2E81C47E0F900CD3913 /* AppDelegate.swift */,
 				9C45B2EA1C47E0F900CD3913 /* WelcomeViewController.swift */,
-				9CF28ECD1C4A1A2E0090816A /* Profile.swift */,
+				9CF28ECF1C4A1B7B0090816A /* Ivent.swift */,
+				9C0581311C64B02C00617693 /* People.swift */,
 				9C45B2EC1C47E0F900CD3913 /* Main.storyboard */,
+				9C0581371C64B6D200617693 /* 20080924113919.jpg */,
+				9C0581351C64B5CD00617693 /* スクリーンショット 2016-02-05 19.47.59.png */,
+				9C0581331C64B41500617693 /* スクリーンショット 2016-02-05 19.41.52.png */,
+				9CF28ED71C538F440090816A /* スクリーンショット 2015-06-07 14.39.13.png */,
 				9CF28ED31C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png */,
 				9CF28ED11C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png */,
 				9C45B2EF1C47E0F900CD3913 /* Assets.xcassets */,
 				9C45B2F11C47E0F900CD3913 /* LaunchScreen.storyboard */,
 				9C45B2F41C47E0F900CD3913 /* Info.plist */,
-				9CF28ECF1C4A1B7B0090816A /* File.swift */,
 			);
 			path = NES;
 			sourceTree = "<group>";
@@ -251,9 +263,13 @@
 			files = (
 				9C45B2F31C47E0F900CD3913 /* LaunchScreen.storyboard in Resources */,
 				9C45B2F01C47E0F900CD3913 /* Assets.xcassets in Resources */,
+				9CF28ED81C538F440090816A /* スクリーンショット 2015-06-07 14.39.13.png in Resources */,
+				9C0581381C64B6D200617693 /* 20080924113919.jpg in Resources */,
 				9CF28ED21C4A1FC60090816A /* スクリーンショット 2015-03-07 9.04.50.png in Resources */,
 				9C45B2EE1C47E0F900CD3913 /* Main.storyboard in Resources */,
+				9C0581361C64B5CD00617693 /* スクリーンショット 2016-02-05 19.47.59.png in Resources */,
 				9CF28ED41C534CFC0090816A /* スクリーンショット 2016-01-23 14.53.44.png in Resources */,
+				9C0581341C64B41500617693 /* スクリーンショット 2016-02-05 19.41.52.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C45B2EB1C47E0F900CD3913 /* WelcomeViewController.swift in Sources */,
-				9CF28ED01C4A1B7B0090816A /* File.swift in Sources */,
-				9CF28ECE1C4A1A2E0090816A /* Profile.swift in Sources */,
+				9C0581321C64B02C00617693 /* People.swift in Sources */,
+				9CF28ED01C4A1B7B0090816A /* Ivent.swift in Sources */,
 				9C45B2E91C47E0F900CD3913 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
